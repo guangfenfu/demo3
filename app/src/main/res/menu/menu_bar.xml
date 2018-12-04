@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/colorProgressBar" >
+
+    <item
+        android:id="@+id/all"
+        android:title="All"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/china"
+        android:title="China"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/vietnam"
+        android:title="Vietnam"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/korea "
+        android:title="Korea "
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/map"
+        android:title="Map"
+        app:showAsAction="collapseActionView" />
+    <item
+        android:id="@+id/settings"
+        android:title="Settings"
+        app:showAsAction="collapseActionView" />
+</menu>

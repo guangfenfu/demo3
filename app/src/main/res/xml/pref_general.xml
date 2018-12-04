@@ -1,0 +1,14 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+
+    <ListPreference
+        android:defaultValue="white"
+        android:entries="@array/pref_text_color_list_titles"
+        android:entryValues="@array/pref_text_color_list_values"
+        android:key="text_color_list"
+        android:negativeButtonText="@null"
+        android:positiveButtonText="@null"
+        android:title="@string/pref_text_color" />
+
+</PreferenceScreen>

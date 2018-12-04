@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DishActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/dish_imageview"
+            android:layout_width="match_parent"
+            android:layout_height="250dp" />
+
+
+        <com.like.LikeButton
+            android:id="@+id/heart_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            app:anim_scale_factor="2"
+            app:circle_end_color="@color/colorAccent"
+            app:circle_start_color="@color/colorPrimary"
+            app:dots_primary_color="@color/colorAccent"
+            app:dots_secondary_color="@color/colorPrimary"
+            app:icon_size="25dp"
+            app:icon_type="heart"
+            app:like_drawable="@drawable/heart_on"
+            app:unlike_drawable="@drawable/heart_off" />
+
+        <TextView
+            android:id="@+id/dish_name"
+            android:layout_width="match_parent"
+            android:layout_height="28dp"
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/dish_price"
+            android:layout_width="match_parent"
+            android:layout_height="28dp"
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/dish_flavor"
+            android:layout_width="match_parent"
+            android:layout_height="28dp"
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/dish_ingredient"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/dish_restaurant"
+            android:layout_width="match_parent"
+            android:layout_height="28dp"
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/dish_address"
+            android:layout_width="match_parent"
+            android:layout_height="28dp"
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/dish_open_time"
+            android:layout_width="match_parent"
+            android:layout_height="28dp"
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/dish_available_time"
+            android:layout_width="match_parent"
+            android:layout_height="28dp"
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/dish_style"
+            android:layout_width="match_parent"
+            android:layout_height="28dp"
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cooking instruction:"
+            android:textColor="@android:color/holo_blue_bright" />
+
+        <TextView
+            android:id="@+id/dish_cooking_instruction"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:autoLink="web"
+            android:text="TextView" />
+
+
+    </LinearLayout>
+</ScrollView>
